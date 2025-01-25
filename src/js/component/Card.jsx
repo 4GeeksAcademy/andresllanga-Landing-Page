@@ -4,16 +4,15 @@ import React from "react"
 
 return(
     <>
-    <div className="col-md-3 mb-4">
-            <div className="card h-100">
-                <img src="https://via.placeholder.com/500x325" className="card-img-top" alt="..." />
-                <div className="card-body d-flex flex-column">
-                    <h5 className="card-title">{title}</h5>
-                    <p className="card-text flex-grow-1">{text}</p>
-                    <a href="#" className="btn btn-primary mt-auto">{buttonText}</a>
-                </div>
-            </div>
+    <div class="card" style={{width:"18rem"}}>
+        <img src="https://via.placeholder.com/500x325" class="card-img-top" alt="..."/>
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
+    </div>
+    
     </>
 )
 }
