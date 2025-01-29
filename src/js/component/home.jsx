@@ -10,11 +10,11 @@ const Home = () => {
 		<div className="text-center">
 			<Navbar/>
 			<Jumbotron/>
-			<div className="d-flex">
-				<Card />
-				<Card />
-				<Card />
-				<Card />	
+			<div className="d-flex justify-content-center">
+				<Card className="mx-5" />
+				<Card className="mx-5"/>
+				<Card className="mx-5"/>
+				<Card className="mx-5"/>	
 			</div>
 			<Footer/>
 		</div>

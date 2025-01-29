@@ -4,7 +4,7 @@ import React from "react"
 
 return(
     <>
-    <div class="card" style={{width:"18rem"}}>
+    <div class="card mx-3" style={{width:"18rem"}}>
         <img src="https://via.placeholder.com/500x325" class="card-img-top" alt="..."/>
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
